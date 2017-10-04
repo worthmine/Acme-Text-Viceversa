@@ -164,7 +164,7 @@ Acme::Text::ɐsɹǝʌǝsᴉΛ - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
 
 =head1 AUTHOR
 
-E<lt>Ǝɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
+E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
 
 =cut
 
