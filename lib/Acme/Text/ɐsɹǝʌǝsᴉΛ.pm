@@ -158,13 +158,13 @@ Acme::Text::ɐsɹǝʌǝsᴉΛ - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
 =head1 LICENSE
 
 ˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ
- ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ ⋅̕ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
+ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ ⋅̕ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
 
- ˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
+˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
 
 =head1 AUTHOR
 
-E<lt>Ǝɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<lt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
+E<lt>Ǝɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
 
 =cut
 
