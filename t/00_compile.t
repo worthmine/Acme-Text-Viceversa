@@ -22,8 +22,8 @@ use utf8;
     my $v = new_ok('Acme::Text::ɐsɹǝʌǝsᴉΛ');                            # 2
     my $t = '';
     is $t = $v->ɐsɹɐʌǝɔᴉʌ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
-     is $t = $v->ɐsɹɐʌǝɔᴉʌ('succeed to get vicevarsa'),                 # 4
-    'ɐsɹɐʌǝɔᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
+     is $t = $v->ɐsɹɐʌǝɔᴉʌ('succeed to get visevarsa'),                 # 4
+    'ɐsɹɐʌǝsᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
 }
 
 done_testing;
