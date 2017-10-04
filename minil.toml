@@ -1,0 +1,6 @@
+name = "Acme-Text-ɐsɹǝʌǝsᴉΛ"
+# badges = ["travis"]
+authority="cpan:WORTHMINE"
+
+module_maker="ModuleBuildTiny"
+
