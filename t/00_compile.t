@@ -1,5 +1,5 @@
 use strict;
-use Test::More 0.98 tests => 4;
+use Test::More 0.98 tests => 5;
 
 use utf8;
 
@@ -21,9 +21,19 @@ use utf8;
     use_ok 'Acme::Text::ɐsɹǝʌǝsᴉΛ';                                     # 1
     my $v = new_ok('Acme::Text::ɐsɹǝʌǝsᴉΛ');                            # 2
     my $t = '';
-    is $t = $v->ɐsɹɐʌǝɔᴉʌ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
-     is $t = $v->ɐsɹɐʌǝɔᴉʌ('succeed to get visevarsa'),                 # 4
+    is $t = $v->ɐsɹǝʌǝsᴉΛ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
+     is $t = $v->ɐsɹǝʌǝsᴉΛ('succeed to get viseversa'),                 # 4
     'ɐsɹɐʌǝsᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
+    is $t = $v->ɐsɹǝʌǝsᴉΛ(<<'END'), <<'END', $t;                        # 5
+
+Copyright (C) Yuki Yoshida.
+
+This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+END
+˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ ⋅̕ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
+
+˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
+END
 }
 
 done_testing;

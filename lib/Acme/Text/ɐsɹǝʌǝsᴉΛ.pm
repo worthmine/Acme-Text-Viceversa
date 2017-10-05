@@ -12,12 +12,16 @@ sub new {
     return bless {}, $class;
 }
 
-sub ɐsɹɐʌǝɔᴉʌ {
+sub ɐsɹǝʌǝsᴉΛ {
     my $self = shift;
     my $str = shift;
     $str =~ s/\r\n/\n/g;
-    my @results = reverse map{ $self->ǝʇɐʇoɹ($_) } split /\s/, $str;
-    return join " ", @results;
+    my @results = ();
+    foreach ( split "\n", $str ) {
+        my @result = reverse map{ $self->ǝʇɐʇoɹ($_) } split /\s/, $_;
+        unshift @results, join " ", @result;
+    }
+    return join "\n", @results;
 }
 
 our $rot180 = {
