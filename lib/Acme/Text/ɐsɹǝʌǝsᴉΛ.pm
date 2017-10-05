@@ -149,7 +149,8 @@ Acme::Text::ɐsɹǝʌǝsᴉΛ - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
  use Acme::Text::ɐsɹǝʌǝsᴉΛ;
 
  my $v = Acme::Text::ɐsɹǝʌǝsᴉΛ->new();
- my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to be upset');
+ my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to make upset');
+ # ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ
 
 =head1 DESCRIPTION
 
