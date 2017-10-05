@@ -23,7 +23,7 @@ use utf8;
     my $t = '';
     is $t = $v->ɐsɹǝʌǝsᴉΛ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
      is $t = $v->ɐsɹǝʌǝsᴉΛ('succeed to get viseversa'),                 # 4
-    'ɐsɹɐʌǝsᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
+    'ɐsɹǝʌǝsᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
     is $t = $v->ɐsɹǝʌǝsᴉΛ(<<'END'), <<'END', $t;                        # 5
 
 Copyright (C) Yuki Yoshida.
