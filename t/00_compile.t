@@ -18,13 +18,13 @@ use utf8;
         return $builder;
     };
 
-    use_ok 'Acme::Text::ɐsɹǝʌǝsᴉΛ';                                     # 1
-    my $v = new_ok('Acme::Text::ɐsɹǝʌǝsᴉΛ');                            # 2
+    use_ok 'Acme::Text::ɐsɹǝʌǝɔᴉΛ';                                     # 1
+    my $v = new_ok('Acme::Text::ɐsɹǝʌǝɔᴉΛ');                            # 2
     my $t = '';
-    is $t = $v->ɐsɹǝʌǝsᴉΛ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
-     is $t = $v->ɐsɹǝʌǝsᴉΛ('succeed to get viseversa'),                 # 4
+    is $t = $v->ɐsɹǝʌǝɔᴉΛ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
+     is $t = $v->ɐsɹǝʌǝɔᴉΛ('succeed to get viseversa'),                 # 4
     'ɐsɹǝʌǝsᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
-    is $t = $v->ɐsɹǝʌǝsᴉΛ(<<'END'), <<'END', $t;                        # 5
+    is $t = $v->ɐsɹǝʌǝɔᴉΛ(<<'END'), <<'END', $t;                        # 5
 
 Copyright (C) Yuki Yoshida.
 

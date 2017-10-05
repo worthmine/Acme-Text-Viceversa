@@ -1,5 +1,5 @@
 use utf8;
-package Acme::Text::ɐsɹǝʌǝsᴉΛ;
+package Acme::Text::ɐsɹǝʌǝɔᴉΛ;
 
 use 5.008001;
 use strict;
@@ -12,7 +12,7 @@ sub new {
     return bless {}, $class;
 }
 
-sub ɐsɹǝʌǝsᴉΛ {
+sub ɐsɹǝʌǝɔᴉΛ {
     my $self = shift;
     my $str = shift;
     $str =~ s/\r\n/\n/g;
@@ -133,7 +133,7 @@ sub ǝʇɐʇoɹ {
     my @results = ();
     my $ascii = '';
     while ( $ascii = substr( $str, 0, 1, '' ) or $ascii eq '0' ){
-        unshift @results, $Acme::Text::ɐsɹǝʌǝsᴉΛ::rot180->{$ascii};
+        unshift @results, $Acme::Text::ɐsɹǝʌǝɔᴉΛ::rot180->{$ascii};
     }
     return join "", @results;
 }
@@ -145,14 +145,14 @@ __END__
 
 =head1 NAME
 
-Acme::Text::ɐsɹǝʌǝsᴉΛ - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
+Acme::Text::ɐsɹǝʌǝɔᴉΛ - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
 
 =head1 SYNOPSIS
 
  use utf8;
- use Acme::Text::ɐsɹǝʌǝsᴉΛ;
+ use Acme::Text::ɐsɹǝʌǝɔᴉΛ;
 
- my $v = Acme::Text::ɐsɹǝʌǝsᴉΛ->new();
+ my $v = Acme::Text::ɐsɹǝʌǝɔᴉΛ->new();
  my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to make upset');
  # ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ
 
