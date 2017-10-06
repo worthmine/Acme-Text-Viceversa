@@ -5,7 +5,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 sub new {
     my $class = shift;
@@ -24,7 +24,7 @@ sub ɐsɹǝʌǝɔᴉΛ {
     return join "\n", @results;
 }
 
-my %define = (
+my %ascii = (
     q' ' => ' ',
     q'!' => '¡',
     q'"' => '„',
@@ -127,10 +127,9 @@ my %define = (
     q|~| => '∼',
 );
 
-our %rot180 = %define;
-while( my( $from, $to ) = each %define ){
-    next if $from eq $to;
-    next if $to =~ /\p{ascii}/;
+our %rot180 = %ascii;
+while( my( $from, $to ) = each %ascii ){
+    next if $to =~ /[ -~]/;
     $rot180{$to} = $from;
 }
 
