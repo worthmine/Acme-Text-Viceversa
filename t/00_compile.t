@@ -1,5 +1,5 @@
 use strict;
-use Test::More 0.98 tests => 5;
+use Test::More 0.98 tests => 6;
 
 use utf8;
 
@@ -22,9 +22,9 @@ use utf8;
     my $v = new_ok('Acme::Text::ɐsɹǝʌǝɔᴉΛ');                            # 2
     my $t = '';
     is $t = $v->ɐsɹǝʌǝɔᴉΛ('text'), 'ʇxǝʇ', "$t ʇǝɓ oʇ pǝǝɔɔns";         # 3
-     is $t = $v->ɐsɹǝʌǝɔᴉΛ('succeed to get viseversa'),                 # 4
-    'ɐsɹǝʌǝsᴉʌ ʇǝɓ oʇ pǝǝɔɔns', $t;
-    is $t = $v->ɐsɹǝʌǝɔᴉΛ(<<'END'), <<'END', $t;                        # 5
+     is $t = $v->ɐsɹǝʌǝɔᴉΛ('succeed to upset Viceversa'),               # 4
+    'ɐsɹǝʌǝɔᴉΛ ʇǝsdn oʇ pǝǝɔɔns', $t;
+     is $v->ɐsɹǝʌǝɔᴉΛ(<<'END'), <<'END', "succeed to upset multi-lined strings";                        # 5
 
 Copyright (C) Yuki Yoshida.
 
@@ -34,6 +34,8 @@ END
 
 ˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
 END
+     is $t = $v->ɐsɹǝʌǝɔᴉΛ('sɓuᴉɹʇs ʇǝsdn ʇǝsdn-ǝɹ oʇ pǝǝɔɔns'),                 # 6
+    'succeed to re-upset upset strings', $t;
 }
 
 done_testing;

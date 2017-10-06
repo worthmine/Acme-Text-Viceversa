@@ -5,7 +5,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub new {
     my $class = shift;
@@ -24,7 +24,7 @@ sub ɐsɹǝʌǝɔᴉΛ {
     return join "\n", @results;
 }
 
-our $rot180 = {
+my %define = (
     q' ' => ' ',
     q'!' => '¡',
     q'"' => '„',
@@ -125,17 +125,24 @@ our $rot180 = {
     q|\|| => '|',
     q|}| => '{',
     q|~| => '∼',
-};
+);
+
+our %rot180 = %define;
+while( my( $from, $to ) = each %define ){
+    next if $from eq $to;
+    next if $to =~ /\p{ascii}/;
+    $rot180{$to} = $from;
+}
 
 sub ǝʇɐʇoɹ {
     my $self = shift;
     my $str = shift;
     my @results = ();
-    my $ascii = '';
-    while ( $ascii = substr( $str, 0, 1, '' ) or $ascii eq '0' ){
-        unshift @results, $Acme::Text::ɐsɹǝʌǝɔᴉΛ::rot180->{$ascii};
+    my $string = '';
+    while ( $string = substr( $str, 0, 1, '' ) or $string eq '0' ){
+        unshift @results, $rot180{$string};
     }
-    return join "", @results;
+    return join "", grep{ defined $_ } @results;
 }
 
 1;
