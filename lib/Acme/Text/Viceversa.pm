@@ -6,7 +6,7 @@ use warnings;
 
 use utf8;
 
-our $VERSION = "0.04";
+our $VERSION = "0.05";
 
 sub new {
     my $class = shift;
@@ -154,7 +154,7 @@ __END__
  
 E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
 
- =head1 LICENSE
+=head1 LICENSE
 
 ˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ
 ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ ⋅̕ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
