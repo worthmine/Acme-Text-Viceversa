@@ -176,6 +176,6 @@ E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄
  
 =head1 NAME
  
-Acme::Text::Viceversa - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
+ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
 
 =cut

@@ -1,5 +1,5 @@
 {
-   "abstract" : "ÊxÇÊ ÇÉ¥Ê ÊÇsdn Êsná",
+   "abstract" : "ÉsÉ¹ÇÊÇÉá´Î::ÊxÇâ¥::ÇÉ¯Éâ",
    "author" : [
       "<ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍ> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄"
    ],
@@ -68,7 +68,8 @@
    "x_authority" : "cpan:WORTHMINE",
    "x_contributors" : [
       "Yuki Yoshida <worthmine@gmail.com>",
-      "Yuki Yoshida <worthmine@users.noreply.github.com>"
+      "Yuki Yoshida <worthmine@users.noreply.github.com>",
+      "worthmine <worthmine@cpan.org>"
    ],
    "x_serialization_backend" : "JSON::PP version 4.00",
    "x_static_install" : 1
