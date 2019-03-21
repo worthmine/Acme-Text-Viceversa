@@ -1,9 +1,10 @@
-use utf8;
-package Acme::Text::ɐsɹǝʌǝɔᴉΛ;
+package Acme::Text::Viceversa;
 
 use 5.008001;
 use strict;
 use warnings;
+
+use utf8;
 
 our $VERSION = "0.04";
 
@@ -28,21 +29,21 @@ my %ascii = (
     q' ' => ' ',
     q'!' => '¡',
     q'"' => '„',
-    q'#' => '#',
-    q'$' => '$',
-    q'%' => '%',
+    q'#' => '#',    # same!
+    q'$' => '$',    # same!
+    q'%' => '%',    # same!
     q'&' => '⅋',
     q|'| => '͵',
     q|(| => ')',
     q|)| => '(',
-    q|*| => '*',
-    q|+| => '+',
+    q|*| => '*',    # same!
+    q|+| => '+',    # same!
     q|,| => '‘',
-    q|-| => '-',
+    q|-| => '-',    # same!
     q|.| => '˙',
-    q|/| => '/',
+    q|/| => '/',    # same!
 
-    q|0| => '0',
+    q|0| => '0',    # same!
     q|1| => '⇂',
     q|2| => 'ᘔ',
     q|3| => 'ε',
@@ -50,16 +51,16 @@ my %ascii = (
     q|5| => 'ᔕ',
     q|6| => '9',
     q|7| => 'L',
-    q|8| => '8',
+    q|8| => '8',    # same!
     q|9| => '6',
-    q|:| => ':',
+    q|:| => ':',    # same!
     q|;| => '⋅̕',
     q|<| => '>',
-    q|=| => '=',
+    q|=| => '=',    # same!
     q|>| => '<',
     q|?| => '¿',
 
-    q|@| => '@',
+    q|@| => '@',    # Can't be rotate
     q|A| => '∀',
     q|B| => 'ᗺ',
     q|C| => 'Ↄ',
@@ -67,28 +68,28 @@ my %ascii = (
     q|E| => 'Ǝ',
     q|F| => 'Ⅎ',
     q|G| => '⅁',
-    q|H| => 'H',
-    q|I| => 'I',
+    q|H| => 'H',    # same!
+    q|I| => 'I',    # same!
     q|J| => 'ᒋ',
     q|K| => '丬',
     q|L| => 'ᒣ',
     q|M| => 'W',
-    q|N| => 'N',
-    q|O| => 'O',
+    q|N| => 'N',    # same!
+    q|O| => 'O',    # same!
 
     q|P| => 'Ԁ',
     q|Q| => 'Ό',
     q|R| => 'Ȣ',
-    q|S| => 'S',
+    q|S| => 'S',    # same!
     q|T| => '⊥',
     q|U| => 'ᑎ',
     q|V| => 'Λ',
     q|W| => 'M',
-    q|X| => 'X',
+    q|X| => 'X',    # same!
     q|Y| => '⅄',
-    q|Z| => 'Z',
+    q|Z| => 'Z',    # same!
     q|]| => '[',
-    q|\\| => '\\',
+    q|\\| => '\\',    # same!
     q|[| => ']',
     q|^| => '‿',
     q|_| => '‾',
@@ -108,29 +109,29 @@ my %ascii = (
     q|l| => 'ꞁ',
     q|m| => 'ɯ',
     q|n| => 'u',
-    q|o| => 'o',
+    q|o| => 'o',    # same!
 
     q|p| => 'd',
     q|q| => 'b',
     q|r| => 'ɹ',
-    q|s| => 's',
+    q|s| => 's',    # same!
     q|t| => 'ʇ',
     q|u| => 'n',
     q|v| => 'ʌ',
     q|w| => 'ʍ',
-    q|x| => 'x',
+    q|x| => 'x',    # same!
     q|y| => 'ʎ',
-    q|z| => 'z',
+    q|z| => 'z',    # same!
     q|{| => '}',
-    q|\|| => '|',
+    q{|} => '|',    # same!
     q|}| => '{',
-    q|~| => '∼',
+    q|~| => '∼',    # same!
 );
 
-our %rot180 = %ascii;
-while( my( $from, $to ) = each %ascii ){
-    next if $to =~ /[ -~]/;
-    $rot180{$to} = $from;
+my %rot180 = %ascii;
+while( my( $from, $to ) = each %ascii ){    # to make reversed list
+    next if $to =~ /[ -~]/;                 # skip if it was an ascii
+    $rot180{$to} = $from;                   # add reversed key
 }
 
 sub ǝʇɐʇoɹ {
@@ -149,33 +150,32 @@ __END__
 
 =encoding utf-8
 
-=head1 NAME
+=head1 AUTHOR
+ 
+E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
 
-Acme::Text::ɐsɹǝʌǝɔᴉΛ - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
-
-=head1 SYNOPSIS
-
- use utf8;
- use Acme::Text::ɐsɹǝʌǝɔᴉΛ;
-
- my $v = Acme::Text::ɐsɹǝʌǝɔᴉΛ->new();
- my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to make upset');
- # ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ
-
-=head1 DESCRIPTION
-
-ǝɯɐu ǝꞁnpoɯ sɐ sɓuᴉɹʇs 8-ɟʇn ɓuᴉsn ɹoɟ ʇsǝʇ ǝɥʇ sᴉ Visevarsa::ʇxǝ⊥::ǝɯɔ∀
-
-=head1 LICENSE
+ =head1 LICENSE
 
 ˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ
 ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ ⋅̕ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
 
 ˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
 
-=head1 AUTHOR
+=head1 DESCRIPTION
+ 
+ǝɯɐu ǝꞁnpoɯ sɐ sɓuᴉɹʇs 8-ɟʇn ɓuᴉsn ɹoɟ ʇsǝʇ ǝɥʇ sᴉ ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
 
-E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
+=head1 SYNOPSIS
+ 
+ use utf8;
+ use Acme::Text::Viceversa;
+ 
+ my $v = Acme::Text::Viceversa->new();
+ my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to make upset');
+ # ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ
+ 
+=head1 NAME
+ 
+Acme::Text::Viceversa - ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ
 
 =cut
-

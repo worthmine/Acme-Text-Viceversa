@@ -1,10 +1,10 @@
 {
-   "abstract" : "ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ",
+   "abstract" : "ÊxÇÊ ÇÉ¥Ê ÊÇsdn Êsná",
    "author" : [
       "<ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍ> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.13, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "unknown"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : 2
    },
-    "name" : "Acme-Text-ɐsɹǝʌǝsᴉΛ",
+   "name" : "Acme-Text-Viceversa",
    "no_index" : {
       "directory" : [
          "t",
@@ -47,12 +47,29 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::More::UTF8" : "0"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/worthmine/Acme-Text-Vicevarsa/issues"
+      },
+      "homepage" : "https://github.com/worthmine/Acme-Text-Vicevarsa",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/worthmine/Acme-Text-Vicevarsa.git",
+         "web" : "https://github.com/worthmine/Acme-Text-Vicevarsa"
+      }
+   },
+   "version" : "0.04",
    "x_authority" : "cpan:WORTHMINE",
-   "x_serialization_backend" : "JSON::PP version 2.93"
+   "x_contributors" : [
+      "Yuki Yoshida <worthmine@gmail.com>",
+      "Yuki Yoshida <worthmine@users.noreply.github.com>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 4.00",
+   "x_static_install" : 1
 }
