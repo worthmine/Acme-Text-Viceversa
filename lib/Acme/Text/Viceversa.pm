@@ -13,20 +13,8 @@ sub new {
     return bless {}, $class;
 }
 
-sub ɐsɹǝʌǝɔᴉΛ {
-    my $self = shift;
-    my $str = shift;
-    $str =~ s/\r\n/\n/g;
-    my @results = ();
-    foreach ( split "\n", $str ) {
-        my @result = reverse map{ $self->ǝʇɐʇoɹ($_) } split /\s/, $_;
-        unshift @results, join " ", @result;
-    }
-    return join "\n", @results;
-}
-
 my %ascii = (
-    q' ' => ' ',
+    q' ' => ' ',    # same!
     q'!' => '¡',
     q'"' => '„',
     q'#' => '#',    # same!
@@ -130,8 +118,20 @@ my %ascii = (
 
 my %rot180 = %ascii;
 while( my( $from, $to ) = each %ascii ){    # to make reversed list
-    next if $to =~ /[ -~]/;                 # skip if it was an ascii
+    next if $to =~ /^[ -~]$/;               # skip if it was an ascii
     $rot180{$to} = $from;                   # add reversed key
+}
+
+sub ɐsɹǝʌǝɔᴉΛ {
+    my $self = shift;
+    my $str = shift;
+    $str =~ s/\r\n/\n/g;
+    my @results = ();
+    foreach ( split "\n", $str ) {
+        my @result = reverse map{ $self->ǝʇɐʇoɹ($_) } split /\s/, $_;
+        unshift @results, join " ", @result;
+    }
+    return join "\n", @results;
 }
 
 sub ǝʇɐʇoɹ {
@@ -139,10 +139,19 @@ sub ǝʇɐʇoɹ {
     my $str = shift;
     my @results = ();
     my $string = '';
+    my $buffer = '';
     while ( $string = substr( $str, 0, 1, '' ) or $string eq '0' ){
-        unshift @results, $rot180{$string};
+        if( exists $rot180{$string} ) {
+            unshift @results, $rot180{$string};
+            $buffer = '';
+        }else{
+            $buffer .= $string;     # some charactor has length 2
+            next unless exists $rot180{$buffer};
+            unshift @results, $rot180{$buffer};
+            $buffer = '';
+        }
     }
-    return join "", grep{ defined $_ } @results;
+    return join "", @results;
 }
 
 1;
