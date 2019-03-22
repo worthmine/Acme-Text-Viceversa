@@ -28,23 +28,19 @@ is $t, $pangram, 'ɯɐɹɓuɐd ɐ ʇǝsdn-ǝɹ oʇ pǝǝɔɔns';                
 
 $t = <<'END';
 
-use utf8;
-use Acme::Text::Viceversa;
-
-my $v = Acme::Text::Viceversa->new();
-my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to make upset');
-# ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ
+0123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+~`!@#$%^&*()-_=+[{]}\|;:'",<.>/?
 END
+# ɓuᴉʇɥɓᴉꞁɥɓᴉɥ xɐʇuʎs pᴉoʌɐ oʇ`
 
 $t = $v->ɐsɹǝʌǝɔᴉΛ($t);
 is $t, <<'END', 'sɓuᴉɹʇs pǝuᴉꞁ-ᴉʇꞁnɯ ʇǝsdn oʇ pǝǝɔɔns';               # 7
-text that you want to make upset #
-⋅̕(͵ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ͵)vicevarsa<-ʌ$ = ʇǝsdn$ ʎɯ
-⋅̕()ʍǝu<-ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ = ʌ$ ʎɯ
-
-⋅̕ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ ǝsn
-⋅̕8ɟʇn ǝsn
+¿/<˙>‘„͵:⋅̕|\{[}]+=‾-()*⅋‿%$#@¡ ̖∼
+zʎxʍʌnʇsɹbdouɯꞁʞſ̣ᴉɥɓɟǝpɔqɐ
+Z⅄XMΛᑎ⊥SȢΌԀONWᒣ丬ᒋIH⅁ℲƎpↃᗺ∀
+68L9ᔕ⇁⃓εᘔ⇂0
 END
 
 done_testing;
-
