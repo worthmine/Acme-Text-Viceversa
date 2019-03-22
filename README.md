@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/worthmine/Acme-Text-Vicevarsa.svg?branch=master)](https://travis-ci.org/worthmine/Acme-Text-Vicevarsa)
+[![Build Status](https://travis-ci.org/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.org/worthmine/Acme-Text-Viceversa)
 # AUTHOR
 
 <ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍ> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
@@ -16,13 +16,11 @@
 
 # SYNOPSIS
 
-    use utf8;
-    use Acme::Text::Viceversa;
+    text that you want to make upset #
+    ⋅̕(͵ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ͵)vicevarsa<-ʌ$ = ʇǝsdn$ ʎɯ
+    ⋅̕()ʍǝu<-ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ = ʌ$ ʎɯ
     
-    my $v = Acme::Text::Viceversa->new();
-    my $upset = $v->ɐsɹɐʌǝɔᴉʌ('text that you want to make upset');
-    # ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ
-    
+    ⋅̕ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ ǝsn
 
 # NAME
 

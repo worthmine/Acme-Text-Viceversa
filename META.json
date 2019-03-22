@@ -55,13 +55,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/worthmine/Acme-Text-Vicevarsa/issues"
+         "web" : "https://github.com/worthmine/Acme-Text-Viceversa/issues"
       },
-      "homepage" : "https://github.com/worthmine/Acme-Text-Vicevarsa",
+      "homepage" : "https://github.com/worthmine/Acme-Text-Viceversa",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/worthmine/Acme-Text-Vicevarsa.git",
-         "web" : "https://github.com/worthmine/Acme-Text-Vicevarsa"
+         "url" : "git://github.com/worthmine/Acme-Text-Viceversa.git",
+         "web" : "https://github.com/worthmine/Acme-Text-Viceversa"
       }
    },
    "version" : "0.05",
