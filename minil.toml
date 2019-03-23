@@ -1,5 +1,5 @@
 name = "Acme-Text-Viceversa"
-badges = ["travis"]
+badges = ["travis-ci.com"]
 authority="cpan:WORTHMINE"
 
 module_maker="ModuleBuildTiny"

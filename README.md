@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.org/worthmine/Acme-Text-Viceversa)
+[![Build Status](https://travis-ci.com/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.com/worthmine/Acme-Text-Viceversa)
 # AUTHOR
 
 <ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍ> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
