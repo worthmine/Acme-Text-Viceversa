@@ -123,7 +123,7 @@ while( my( $from, $to ) = each %ascii ){    # to make reversed list
     $rot180{$to} = $from;                   # add reversed key
     $list .= $to;                           # add the charactors to the list
 }
-$list = "\Q" . $list . "\E";
+$list = "\Q" . $list;
 
 sub ɐsɹǝʌǝɔᴉʌ {
     my $self = shift;
@@ -209,6 +209,6 @@ E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄
 
 =head1 APPRECIATION
  
-¡ʞɔǝu ɹnoʎ ɟo ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
+E<xA1>ʞɔǝu ɹnoʎ ɟo ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
 
 =cut
