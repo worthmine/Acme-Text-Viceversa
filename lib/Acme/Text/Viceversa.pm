@@ -179,11 +179,15 @@ __END__
 
 =head1 DESCRIPTION
  
-=head2 constructor
+=head2 ɹoʇɔnɹʇsuoɔ
  
-=head2 methods
+=head3 ()ʍǝu
 
-=head3 viceversa($paragraph)
+˙pǝɹᴉnbǝɹ sᴉ ɓuᴉɥʇou ˙ɹoʇɔnɹʇsuoɔ ɐ ʇsnſ̣
+ 
+=head2 spoɥʇǝɯ
+
+=head3 (ɥdɐɹɓɐɹɐd$)viceversa
 
 sǝpᴉʌoɹd ǝꞁnpoɯ sᴉɥʇ ʇɐɥʇ uoᴉʇɔunɟ ʎꞁuo ǝɥʇ sᴉ sᴉɥʇ ˙ᴉᴉɔsɐ uᴉ ɥdɐɹɓɐɹɐd ʎuɐ ʇǝsdn ʎꞁʇɔǝɹɹoɔ
  

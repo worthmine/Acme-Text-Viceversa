@@ -1,17 +1,7 @@
 [![Build Status](https://travis-ci.com/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.com/worthmine/Acme-Text-Viceversa)
-# AUTHOR
+# NAME
 
-<ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍ> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
-
-# LICENSE
-
-˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ 'ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
-
-˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
-
-# DESCRIPTION
-
-ǝɯɐu ǝꞁnpoɯ sɐ sɓuᴉɹʇs 8-ɟʇn ɓuᴉsn ɹoɟ ʇsǝʇ ǝɥʇ sᴉ ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
+ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
 
 # SYNOPSIS
 
@@ -21,6 +11,26 @@
     
     ⋅̕ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ ǝsn
 
-# NAME
+# DESCRIPTION
 
-ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
+## ɹoʇɔnɹʇsuoɔ
+
+### ()ʍǝu
+
+˙pǝɹᴉnbǝɹ sᴉ ɓuᴉɥʇou ˙ɹoʇɔnɹʇsuoɔ ɐ ʇsnſ̣
+
+## spoɥʇǝɯ
+
+### (ɥdɐɹɓɐɹɐd$)viceversa
+
+sǝpᴉʌoɹd ǝꞁnpoɯ sᴉɥʇ ʇɐɥʇ uoᴉʇɔunɟ ʎꞁuo ǝɥʇ sᴉ sᴉɥʇ ˙ᴉᴉɔsɐ uᴉ ɥdɐɹɓɐɹɐd ʎuɐ ʇǝsdn ʎꞁʇɔǝɹɹoɔ
+
+# AUTHOR
+
+<ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍ> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
+
+# LICENSE
+
+˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ 'ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
+
+˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
