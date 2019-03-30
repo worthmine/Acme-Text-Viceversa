@@ -165,6 +165,12 @@ __END__
 
 =encoding utf-8
 
+=head1 ATENTION
+ 
+You have to twist your neck to read this document.
+Don't turn your display, it the sliest way for me.
+ 
+ 
 =head1 NAME
  
 ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
@@ -200,5 +206,9 @@ E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄
 ˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ E<039>ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
  
 ˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
+
+＝head1 APPRECIATION
  
+¡ʞɔǝu ɹnoʎ ɹoɟ ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
+
 =cut

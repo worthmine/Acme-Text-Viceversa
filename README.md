@@ -1,4 +1,9 @@
 [![Build Status](https://travis-ci.com/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.com/worthmine/Acme-Text-Viceversa)
+# ATENTION
+
+You have to twist your neck to read this document.
+Don't turn your display, it the sliest way for me.
+
 # NAME
 
 ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
@@ -34,3 +39,7 @@ sǝpᴉʌoɹd ǝꞁnpoɯ sᴉɥʇ ʇɐɥʇ uoᴉʇɔunɟ ʎꞁuo ǝɥʇ sᴉ s�
 ˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ 'ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
 
 ˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
+
+＝head1 APPRECIATION
+
+¡ʞɔǝu ɹnoʎ ɹoɟ ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
