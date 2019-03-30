@@ -3,10 +3,10 @@ package Acme::Text::Viceversa;
 use 5.008001;
 use strict;
 use warnings;
-
+use Carp;
 use utf8;
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 sub new {
     my $class = shift;
@@ -117,12 +117,15 @@ my %ascii = (
 );
 
 my %rot180 = %ascii;
+my $list = '';
 while( my( $from, $to ) = each %ascii ){    # to make reversed list
     next if $to =~ /^[ -~]$/;               # skip if it was an ascii
     $rot180{$to} = $from;                   # add reversed key
+    $list .= $to;                           # add the charactors to the list
 }
+$list = "\Q" . $list . "\E";
 
-sub ɐsɹǝʌǝɔᴉΛ {
+sub ɐsɹǝʌǝɔᴉʌ {
     my $self = shift;
     my $str = shift;
     $str =~ s/\r\n/\n/g;
@@ -137,15 +140,18 @@ sub ɐsɹǝʌǝɔᴉΛ {
 sub ǝʇɐʇoɹ {
     my $self = shift;
     my $str = shift;
+     croak $self->ǝʇɐʇoɹ( __PACKAGE__ . " accepts only ascii and their upset." )
+    unless $str =~ /^(:?[ -~$list]+)$/o;
     my @results = ();
     my $string = '';
     my $buffer = '';
     while ( $string = substr( $str, 0, 1, '' ) or $string eq '0' ){
+        # some charactors have length 2 even if they were under utf8
         if( exists $rot180{$string} ) {
             unshift @results, $rot180{$string};
             $buffer = '';
         }else{
-            $buffer .= $string;     # some charactor has length 2
+            $buffer .= $string;
             next unless exists $rot180{$buffer};
             unshift @results, $rot180{$buffer};
             $buffer = '';
@@ -159,20 +165,10 @@ __END__
 
 =encoding utf-8
 
-=head1 AUTHOR
+=head1 NAME
  
-E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
-
-=head1 LICENSE
-
-˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ E<039>ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
+ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
  
-˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
-
-=head1 DESCRIPTION
- 
-ǝɯɐu ǝꞁnpoɯ sɐ sɓuᴉɹʇs 8-ɟʇn ɓuᴉsn ɹoɟ ʇsǝʇ ǝɥʇ sᴉ ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
-
 =head1 SYNOPSIS
  
  text that you want to make upset #
@@ -181,8 +177,24 @@ E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄
  
  ⋅̕ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ ǝsn
 
-=head1 NAME
+=head1 DESCRIPTION
  
-ʇxǝʇ ǝɥʇ ʇǝsdn ʇsnᒋ - ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀
+=head2 constructor
+ 
+=head2 methods
 
+=head3 viceversa($paragraph)
+
+sǝpᴉʌoɹd ǝꞁnpoɯ sᴉɥʇ ʇɐɥʇ uoᴉʇɔunɟ ʎꞁuo ǝɥʇ sᴉ sᴉɥʇ ˙ᴉᴉɔsɐ uᴉ ɥdɐɹɓɐɹɐd ʎuɐ ʇǝsdn ʎꞁʇɔǝɹɹoɔ
+ 
+=head1 AUTHOR
+ 
+E<lt>ɯoɔ˙ꞁᴉɐɯɓ@ǝuᴉɯɥʇɹoʍE<gt> (ǝuᴉɯɥʇɹoʍ)ɐpᴉɥso⅄ ᴉʞn⅄
+ 
+=head1 LICENSE
+ 
+˙ɟꞁǝsʇᴉ ꞁɹǝԀ sɐ sɯɹǝʇ ǝɯɐs ǝɥʇ ɹǝpun ʇᴉ ʎɟᴉpoɯ ɹo/puɐ ʇᴉ ǝʇnqᴉɹʇsᴉpǝɹ uɐɔ noʎ E<039>ǝɹɐʍʇɟos ǝǝɹɟ sᴉ ʎɹɐɹqᴉꞁ sᴉɥ⊥
+ 
+˙ɐpᴉɥso⅄ ᴉʞn⅄ (Ↄ) ʇɥɓᴉɹʎdoↃ
+ 
 =cut
