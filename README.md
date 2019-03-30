@@ -42,4 +42,4 @@ sǝpᴉʌoɹd ǝꞁnpoɯ sᴉɥʇ ʇɐɥʇ uoᴉʇɔunɟ ʎꞁuo ǝɥʇ sᴉ s�
 
 ＝head1 APPRECIATION
 
-¡ʞɔǝu ɹnoʎ ɹoɟ ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
+¡ʞɔǝu ɹnoʎ ɟo ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
