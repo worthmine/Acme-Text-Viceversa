@@ -11,7 +11,7 @@ Don't turn your display, it is the sliest way for me.
 # SYNOPSIS
 
     text that you want to make upset #
-    ⋅̕(͵ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ͵)vicevarsa<-ʌ$ = ʇǝsdn$ ʎɯ
+    ⋅̕(͵ʇǝsdn ǝʞɐɯ oʇ ʇuɐʍ noʎ ʇɐɥʇ ʇxǝʇ͵)viceversa<-ʌ$ = ʇǝsdn$ ʎɯ
     ⋅̕()ʍǝu<-ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ = ʌ$ ʎɯ
     
     ⋅̕ɐsɹǝʌǝɔᴉΛ::ʇxǝ⊥::ǝɯɔ∀ ǝsn
@@ -42,4 +42,4 @@ sǝpᴉʌoɹd ǝꞁnpoɯ sᴉɥʇ ʇɐɥʇ uoᴉʇɔunɟ ʎꞁuo ǝɥʇ sᴉ s�
 
 # APPRECIATION
 
-˙ʞɔǝu ɹnoʎ ɟo ǝɹɐɔ ǝʞɐ⊥ ˙ǝɹǝɥ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
+˙ʞɔǝu ɹnoʎ ɟo ǝɹɐɔ ǝʞɐ⊥ ˙puǝ ǝɥʇ ꞁꞁᴉʇ ɓuᴉpɐǝɹ ɹoɟ noʎ ʞuɐɥ⊥
