@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.com/worthmine/Acme-Text-Viceversa)
+[![Build Status](https://travis-ci.com/worthmine/Acme-Text-Viceversa.svg?branch=master)](https://travis-ci.com/worthmine/Acme-Text-Viceversa) [![MetaCPAN Release](https://badge.fury.io/pl/Acme-Text-Viceversa.svg)](https://metacpan.org/release/Acme-Text-Viceversa)
 # ATENTION
 
 You have to twist your neck to read this document.
-Don't turn your display, it the sliest way for me.
+Don't turn your display, it is the sliest way for me.
 
 # NAME
 

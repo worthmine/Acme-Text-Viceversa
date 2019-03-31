@@ -168,7 +168,7 @@ __END__
 =head1 ATENTION
  
 You have to twist your neck to read this document.
-Don't turn your display, it the sliest way for me.
+Don't turn your display, it is the sliest way for me.
  
  
 =head1 NAME
